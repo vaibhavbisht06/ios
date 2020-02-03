@@ -14,8 +14,7 @@
 //
 import Foundation
 
-struct ApiConfig {
-    
+struct ApiConfig{
     static let baseUrl =                       "https://example.com"
     static let proxyUrl =                       "https://example.com"
     static let appID =                         "AAAAAAAA"
@@ -32,7 +31,6 @@ struct ApiConfig {
         
 //        fatalError("You may need to get dev credentials to be able to properly login into amahi.org." +
 //            "Get them from support at amahi dot org. Then remove this line")
-        
         return parameters
     }
 }
