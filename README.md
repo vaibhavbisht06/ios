@@ -39,7 +39,22 @@ Please help us follow the best practice to make it easy for the reviewer as well
 - [SkyFloatingLabelTextField](https://github.com/Skyscanner/SkyFloatingLabelTextField): A beautiful and flexible text field control implementation of "Float Label Pattern". Written in Swift.
 
 - [LightBox](https://github.com/hyperoslo/Lightbox): Provides a convenient and easy to use image viewer for iOS app, packed with with features like swipe left/right to change, double tap to zoom, pinch to zoom, caching etc.
+- [Cache](https://github.com/hyperoslo/Cache): Cache doesn't claim to be unique in this area, but it's not another monster library that gives you a god's power. It does nothing but caching, but it does it well. It offers a good public API with out-of-box implementations and great customization possibilities. 
 
+- [Floaty](https://github.com/kciter/Floaty): Floaty is simple floating action button for iOS. (formerly KCFloatingActionButton)
+
+- [google-cast-sdk](https://cocoapods.org/pods/google-cast-sdk): Google Cast is a screen-sharing technology that lets a user send and
+control content like video from a small computing device like a phone, tablet, or laptop to a large display device like a television.
+
+- [Imaginary](https://github.com/hyperoslo/Imaginary): Using remote images in an application is more or less a requirement these days. This process should be easy, straight-forward and hassle free, and with Imaginary, it is. The library comes with a narrow yet flexible public API and a bunch of built-in unicorny features
+
+- [Protobuf](https://github.com/protocolbuffers/protobuf): Protocol Buffers (a.k.a., protobuf) are Google's language-neutral, platform-neutral, extensible mechanism for serializing structured data.
+
+- [ReachabilitySwift](https://github.com/ashleymills/Reachability.swift): Reachability.swift is a replacement for Apple's Reachability sample, re-written in Swift with closures.
+
+- [SDWebImage](https://github.com/SDWebImage/SDWebImage): This library provides an async image downloader with cache support. For convenience, we added categories for UI elements like UIImageView, UIButton, MKAnnotationView.
+
+- [SwipeCellKit](https://github.com/SwipeCellKit/SwipeCellKit): A swipeable UITableViewCell or UICollectionViewCell
 ## Support
 
 If you have questions about Amahi or just want to interact, you can contact us via [IRC channel](http://talk.amahi.org). Don't forget that we are open to suggestions, extensions or adaptations. Feel free to discuss or propose new ideas for projects!
