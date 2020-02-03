@@ -1,4 +1,3 @@
-//
 //  ********************************************************
 //  *************   DO NOT COMMMIT THIS FILE   *************
 //  *************         DO NOT SHARE IT      *************
@@ -31,8 +30,8 @@ struct ApiConfig {
                                                    "username" : username,
                                                    "password" : password ]
         
-        fatalError("You may need to get dev credentials to be able to properly login into amahi.org." +
-            "Get them from support at amahi dot org. Then remove this line")
+//        fatalError("You may need to get dev credentials to be able to properly login into amahi.org." +
+//            "Get them from support at amahi dot org. Then remove this line")
         
         return parameters
     }
