@@ -42,8 +42,16 @@ Please help us follow the best practice to make it easy for the reviewer as well
 - [LightBox](https://github.com/hyperoslo/Lightbox): Provides a convenient and easy to use image viewer for iOS app, packed with with features like swipe left/right to change, double tap to zoom, pinch to zoom, caching etc.
 
 ## Support
+-If you have questions about Amahi or just want to interact, you can contact us via [IRC channel](http://talk.amahi.org). Don't forget that we are open to suggestions, extensions or adaptations. Feel free to discuss or propose new ideas for projects!
 
-If you have questions about Amahi or just want to interact, you can contact us via [IRC channel](http://talk.amahi.org). Don't forget that we are open to suggestions, extensions or adaptations. Feel free to discuss or propose new ideas for projects!
+-This app will go into the [iOS app store](https://itunes.apple.com/us/app/amahi/id761559919) and replace the current version there written in Objective C.
 
+## Pods Install Issue
+### Issue
+Couldn't determine repo type for URL: `https://github.com/CocoaPods/Specs.git`: Failed to open TCP connection to github.com:443 (getaddrinfo: nodename nor servname provided, or not known)
 
-This app will go into the [iOS app store](https://itunes.apple.com/us/app/amahi/id761559919) and replace the current version there written in Objective C.
+### Reason 
+Your ISP or your network configuration is preventing you from reaching out https://cdn.cocoapods.org.
+
+### Fix
+You are recommended to switch back to use the ```git``` based repo by adding it with source ```'https://github.com/CocoaPods/Specs.git' ``` into your ```Podfile```.
